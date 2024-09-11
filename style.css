@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #373636;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #928181;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2d2d2d;
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    display: block;
+    color: #d5d4d4;
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #373636;
+    border-radius: 50px;
+    border: 5px solid #4a4a4a;
+    cursor: pointer;
+}
+/* CSS for Glow and Zoom on Hover */
+.glow-zoom {
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Normal shadow */
+}
+
+/* Hover effect: glow and zoom */
+.glow-zoom:hover {
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Glowing effect */
+}

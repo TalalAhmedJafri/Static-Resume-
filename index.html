@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+   
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif, 
+        margin: 0;
+        padding:0% ;
+        background-color: #1c1c1c; 
+        
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #373636;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #928181;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+
+    .section {
+        margin-bottom: 20px;
+        padding: 15px;
+            background-color: #2d2d2d;
+            border: 2px solid #4a4a4a;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+           
+    .section-header {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .section-content {
+        display: block;
+        color: #d5d4d4;
+    }
+
+    .profile-picture {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+    }
+  
+    ul {
+        list-style: disc;
+        padding-left: 20px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #373636;
+    border-radius: 50px;
+    border: 5px ;
+    border-style:solid;
+    border-color:#4a4a4a;
+    cursor:pointer
+    }
+       /* Glow and Zoom on hover */
+       .glow-zoom {
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .glow-zoom:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+        }
+    
+</style>
+</head>
+<body>
+    <div class="container ">
+        <h1 class="glow-zoom">Talal Ahmed Jaffri</h1>
+        <img src="talal.png" alt="profile-picture" class="profile-picture glow-zoom">
+        <br>
+        <div class="section glow-zoom">
+            <div class="section-content">
+            <h2>About</h2>
+            <p><span style="margin-right: 180px;"></span><b>I am a Student. I recently give my Intermediate exams and</b></p>
+                    <p><span style="margin-right: 250px;"></span><b>now I am learning some new skills</b></p>
+            </div>
+
+        </div>
+        <div class="section glow-zoom" id="personal-section">
+            <h2 class="section-header">Personal Information</h2>
+            <div class="section-content">
+                <p>Contact Details:</p>
+                <p><b>Email:</b> <a href="mailto:talalahmedjaffery@gmail.com">talalahmedjaffery@gmail.com</a></p>
+                <p><b>Phone:</b> <a href="tel:03252305800">03252305800</a></p>
+                <p><b>Address:</b> <span style="color: #007bff;">Landhi-3, Karachi, Pakistan</span> </p>
+            </div>
+        </div>
+        <div class="section glow-zoom">
+            <h2 class="section-header">Education</h2>
+            <div class="section-content">
+                <ul>
+                    <li><b>Matric:</b> Bright Career School<span style="color: rgb(112, 112, 230); margin-left: 10px;">[2020-2022]</span></li>
+                    <li><b>Intermediate:</b> PECHS Govt Education Boys College<span style="color: rgb(112, 112, 230); margin-left: 10px;">[2022-2024]</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section glow-zoom ">
+            <h2 class="section-header">More</h2>
+            <div class="section-content">
+                <div class="section" id="language-section">
+                    <h3 class="section-header">Languages</h3>
+                    <div class="section-content">
+                        <ul>
+                            <li>Urdu</li>
+                            <li>English  <span style="color: rgb(112, 112, 230); margin-left: 10px">[Basic]</span></li>
+                        </ul>
+                    </div>
+                </div>
+            
+        <div class="section " id="courses-section">
+            <h3 class="section-header">Courses</h3>
+            <div class="section-content">
+                <ul>
+                    <li>Artificial Intelligence(AI) <span style="color: rgb(112, 112, 230); margin-left: 10px;">[in progress]</span></li>
+                    <li>Web 3.0  <span style="color: rgb(112, 112, 230); margin-left: 117px">[in progress]</span></li>
+                    <li>Meta Verse  <span style="color: rgb(112, 112, 230); margin-left: 95px">[in progress]</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section " id="skills-section">
+            <h3 class="section-header">Skills</h3>
+            <div class="section-content">
+                <ul>
+                    <li>Video Editting</li>
+                    <li>Ms Office</li>
+                    <li>Graphic Designing</li>
+                    <li>Digital Marketing</li>
+                    <li>Copy Writing</li>
+                </ul>
+            </div>
+             </div>
+        </div>      
+    </div>
+        <div class="section glow-zoom">
+            <h2 class="section-header">Work Experience</h2>
+            <div class="section-content">
+                <ul>
+                    <li><b>NONE</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Add a button to toggle the visibility of the "Skills" section
+        const skillsSection = document.getElementById("skills-section");
+        const showSkillsButton = document.createElement("button");
+        showSkillsButton.textContent = "Show Skills";
+        showSkillsButton.addEventListener("click", () => {
+            skillsSection.style.display = "block";
+            showSkillsButton.style.display = "none";
+        });
+        skillsSection.style.display = "none";
+        skillsSection.parentNode.insertBefore(showSkillsButton, skillsSection);
+    </script>
+    <script>
+        // Add a button to toggle the visibility of the "Courses" section
+        const coursesSection = document.getElementById("courses-section");
+        const showCoursesButton = document.createElement("button");
+        showCoursesButton.textContent = "Show Courses";
+        showCoursesButton.addEventListener("click", () => {
+            coursesSection.style.display = "block";
+            showCoursesButton.style.display = "none";
+        });
+        coursesSection.style.display = "none";
+        coursesSection.parentNode.insertBefore(showCoursesButton, coursesSection);
+    </script>
+    <script>
+        // Add a button to toggle the visibility of the "languages" section
+        const languageSection = document.getElementById("language-section");
+        const showLanguageButton = document.createElement("button");
+        showLanguageButton.textContent = "Show Languages";
+        showLanguageButton.addEventListener("click", () => {
+            languageSection.style.display = "block";
+            showLanguageButton.style.display = "none";
+        });
+        languageSection.style.display = "none";
+        languageSection.parentNode.insertBefore(showLanguageButton, languageSection);
+    </script>
+</body>
+</html>
